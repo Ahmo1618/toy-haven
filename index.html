@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <meta
+            name="description"
+            content="Toy Haven: explore collectible figurines, toys, board games and diecast cars."
+        >
+        <meta name="theme-color" content="#202522" >
+        <title>Collect something extraordinary | Toy Haven</title>
+        <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml" >
+        <link rel="apple-touch-icon" href="assets/icons/icon-192.png" >
+        <link rel="manifest" href="manifest.webmanifest" >
+        <link rel="stylesheet" href="css/style.css" >
+        <script src="js/data.js" defer></script>
+        <script src="js/app.js" defer></script>
+        <script src="js/index.js" defer></script>
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Skip to content</a>
+        <header class="site-header">
+            <nav class="nav container" aria-label="Main navigation">
+                <a class="brand" href="index.html"
+                    ><span class="brand-mark" aria-hidden="true">TH</span> TOY HAVEN<span
+                        class="brand-note"
+                        >THE COLLECTOR'S CORNER</span
+                    ></a
+                >
+                <button
+                    class="menu-toggle"
+                    id="menuToggle"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="navLinks"
+                >
+                    <span class="menu-icon" aria-hidden="true"></span> Menu
+                </button>
+                <div class="nav-links" id="navLinks">
+                    <a href="index.html" aria-current="page">Home</a
+                    ><a href="products.html">Products</a><a href="wishlist.html">My collection</a
+                    ><a href="support.html">Support</a
+                    ><a href="cart.html">Cart <span id="cartCount">0</span></a>
+                </div>
+            </nav>
+        </header>
+        <noscript
+            ><p class="notice container">
+                Enable JavaScript to browse products, use the cart and submit forms.
+            </p></noscript
+        >
+        <main id="main">
+            <section class="hero" aria-label="Promotional carousel" aria-roledescription="carousel">
+                <img
+                    class="hero-image"
+                    id="heroImage"
+                    src="assets/images/astronaut.webp"
+                    alt="Lunar Explorer Figure in a cream spacesuit"
+                    width="800"
+                    height="800"
+                    fetchpriority="high"
+                >
+                <div class="container hero-content">
+                    <p class="eyebrow" id="heroTag">01 / THE COLLECTOR'S CORNER</p>
+                    <h1 id="heroTitle">Small pieces.<br >Big obsessions.</h1>
+                    <p id="heroText">
+                        Figurines, game-night favourites and little machines with serious detail.
+                    </p>
+                    <a class="button" id="heroLink" href="products.html?category=Figurines"
+                        >Explore the collection ↗</a
+                    >
+                    <div class="carousel-controls">
+                        <button id="previousSlide" aria-label="Previous promotion">←</button
+                        ><span id="slideCount">01 / 04</span
+                        ><button id="nextSlide" aria-label="Next promotion">→</button
+                        ><button id="pauseSlides" aria-pressed="false">Pause rotation</button>
+                    </div>
+                </div>
+            </section>
+            <div class="intro-strip container">
+                <span>COLLECT. PLAY. REPEAT.</span>
+                <p>A good collection starts with one good find.</p>
+                <a href="products.html">Find yours ↗</a>
+            </div>
+            <section class="section container reveal">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">FOUR WAYS TO FIND YOUR THING</p>
+                        <h2>Pick your department.</h2>
+                    </div>
+                    <span class="muted">01 — 04</span>
+                </div>
+                <div class="departments">
+                    <a class="department" href="products.html?category=Figurines"
+                        ><img
+                            src="assets/images/astronaut.webp"
+                            alt="Lunar Explorer Figure"
+                            loading="lazy"
+                            width="800"
+                            height="800"
+                        >
+                        <div>
+                            <span>01 / DISPLAY</span>
+                            <h3>Figurines ↗</h3>
+                        </div></a
+                    >
+                    <a class="department" href="products.html?category=Diecast%20Cars"
+                        ><img
+                            src="assets/images/roadster.webp"
+                            alt="Crimson Roadster Model"
+                            loading="lazy"
+                            width="800"
+                            height="800"
+                        >
+                        <div>
+                            <span>02 / DRIVE</span>
+                            <h3>Diecast cars ↗</h3>
+                        </div></a
+                    >
+                    <a class="department" href="products.html?category=Board%20Games"
+                        ><img
+                            src="assets/images/boardgame.webp"
+                            alt="Sunday Trail Game"
+                            loading="lazy"
+                            width="800"
+                            height="800"
+                        >
+                        <div>
+                            <span>03 / GATHER</span>
+                            <h3>Board games ↗</h3>
+                        </div></a
+                    >
+                    <a class="department" href="products.html?category=Toys"
+                        ><img
+                            src="assets/images/teddy.webp"
+                            alt="Classic Teddy Bear"
+                            loading="lazy"
+                            width="800"
+                            height="800"
+                        >
+                        <div>
+                            <span>04 / IMAGINE</span>
+                            <h3>Toys ↗</h3>
+                        </div></a
+                    >
+                </div>
+            </section>
+            <div class="spotlight section reveal">
+                <div class="container spotlight-grid" id="dailyProduct"></div>
+            </div>
+            <section class="section container reveal">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">THE SHORTLIST</p>
+                        <h2>Worth a closer look.</h2>
+                    </div>
+                    <a href="products.html">View all products ↗</a>
+                </div>
+                <div class="product-grid" id="featuredProducts"></div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="container footer-grid">
+                <div>
+                    <a class="brand" href="index.html">TOY HAVEN</a>
+                    <p>For the shelf. For the table.<br >For the joy of it.</p>
+                </div>
+                <div>
+                    <h2 class="footer-title">Explore</h2>
+                    <ul class="footer-links">
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="wishlist.html">My collection</a></li>
+                        <li><a href="cart.html">Shopping cart</a></li>
+                        <li><a href="support.html">Feedback &amp; support</a></li>
+                    </ul>
+                </div>
+                <form id="newsletterForm" novalidate>
+                    <h2 class="footer-title">Make room for the next find.</h2>
+                    <label for="newsletterEmail">Email address</label>
+                    <div class="newsletter-row">
+                        <input
+                            id="newsletterEmail"
+                            type="email"
+                            autocomplete="email"
+                            required
+                            maxlength="120"
+                            placeholder="you@example.com"
+                            aria-describedby="newsletterMessage"
+                        ><button type="submit">Join list</button>
+                    </div>
+                    <p id="newsletterMessage" role="status"></p>
+                </form>
+            </div>
+            <div class="container footer-bottom">
+                <span>© 2026 Toy Haven</span
+                ><span>Made for collectors. Chosen with care.</span>
+            </div>
+        </footer>
+        <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </body>
+</html>

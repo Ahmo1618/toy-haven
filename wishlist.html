@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <meta
+            name="description"
+            content="Toy Haven: explore collectible figurines, toys, board games and diecast cars."
+        >
+        <meta name="theme-color" content="#202522" >
+        <title>My collection | Toy Haven</title>
+        <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml" >
+        <link rel="apple-touch-icon" href="assets/icons/icon-192.png" >
+        <link rel="manifest" href="manifest.webmanifest" >
+        <link rel="stylesheet" href="css/style.css" >
+        <script src="js/data.js" defer></script>
+        <script src="js/app.js" defer></script>
+        <script src="js/wishlist.js" defer></script>
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Skip to content</a>
+        <header class="site-header">
+            <nav class="nav container" aria-label="Main navigation">
+                <a class="brand" href="index.html"
+                    ><span class="brand-mark" aria-hidden="true">TH</span> TOY HAVEN<span
+                        class="brand-note"
+                        >THE COLLECTOR'S CORNER</span
+                    ></a
+                >
+                <button
+                    class="menu-toggle"
+                    id="menuToggle"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="navLinks"
+                >
+                    <span class="menu-icon" aria-hidden="true"></span> Menu
+                </button>
+                <div class="nav-links" id="navLinks">
+                    <a href="index.html">Home</a><a href="products.html">Products</a
+                    ><a href="wishlist.html" aria-current="page">My collection</a
+                    ><a href="support.html">Support</a
+                    ><a href="cart.html">Cart <span id="cartCount">0</span></a>
+                </div>
+            </nav>
+        </header>
+        <noscript
+            ><p class="notice container">
+                Enable JavaScript to browse products, use the cart and submit forms.
+            </p></noscript
+        >
+        <main id="main">
+            <section class="section container">
+                <p class="eyebrow">A SHELF OF YOUR OWN</p>
+                <h1>My collection.</h1>
+                <p class="lead">Keep track of what caught your eye and what already has a place.</p>
+                <p id="collectionCount" role="status" class="muted"></p>
+                <h2>Saved products</h2>
+                <div id="wishlistItems" class="product-grid"></div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="container footer-grid">
+                <div>
+                    <a class="brand" href="index.html">TOY HAVEN</a>
+                    <p>For the shelf. For the table.<br >For the joy of it.</p>
+                </div>
+                <div>
+                    <h2 class="footer-title">Explore</h2>
+                    <ul class="footer-links">
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="wishlist.html">My collection</a></li>
+                        <li><a href="cart.html">Shopping cart</a></li>
+                        <li><a href="support.html">Feedback &amp; support</a></li>
+                    </ul>
+                </div>
+                <form id="newsletterForm" novalidate>
+                    <h2 class="footer-title">Make room for the next find.</h2>
+                    <label for="newsletterEmail">Email address</label>
+                    <div class="newsletter-row">
+                        <input
+                            id="newsletterEmail"
+                            type="email"
+                            autocomplete="email"
+                            required
+                            maxlength="120"
+                            placeholder="you@example.com"
+                            aria-describedby="newsletterMessage"
+                        ><button type="submit">Join list</button>
+                    </div>
+                    <p id="newsletterMessage" role="status"></p>
+                </form>
+            </div>
+            <div class="container footer-bottom">
+                <span>© 2026 Toy Haven</span
+                ><span>Made for collectors. Chosen with care.</span>
+            </div>
+        </footer>
+        <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </body>
+</html>

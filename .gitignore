@@ -1,0 +1,11 @@
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+# Temporary files and local logs
+*.log
+*.tmp
+~$*
+# Generated packages are delivered separately
+*.zip
+node_modules/

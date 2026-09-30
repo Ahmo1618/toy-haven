@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <meta
+            name="description"
+            content="Toy Haven: explore collectible figurines, toys, board games and diecast cars."
+        >
+        <meta name="theme-color" content="#202522" >
+        <title>Feedback and support | Toy Haven</title>
+        <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml" >
+        <link rel="apple-touch-icon" href="assets/icons/icon-192.png" >
+        <link rel="manifest" href="manifest.webmanifest" >
+        <link rel="stylesheet" href="css/style.css" >
+        <script src="js/data.js" defer></script>
+        <script src="js/app.js" defer></script>
+        <script src="js/support.js" defer></script>
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Skip to content</a>
+        <header class="site-header">
+            <nav class="nav container" aria-label="Main navigation">
+                <a class="brand" href="index.html"
+                    ><span class="brand-mark" aria-hidden="true">TH</span> TOY HAVEN<span
+                        class="brand-note"
+                        >THE COLLECTOR'S CORNER</span
+                    ></a
+                >
+                <button
+                    class="menu-toggle"
+                    id="menuToggle"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="navLinks"
+                >
+                    <span class="menu-icon" aria-hidden="true"></span> Menu
+                </button>
+                <div class="nav-links" id="navLinks">
+                    <a href="index.html">Home</a><a href="products.html">Products</a
+                    ><a href="wishlist.html">My collection</a
+                    ><a href="support.html" aria-current="page">Support</a
+                    ><a href="cart.html">Cart <span id="cartCount">0</span></a>
+                </div>
+            </nav>
+        </header>
+        <noscript
+            ><p class="notice container">
+                Enable JavaScript to browse products, use the cart and submit forms.
+            </p></noscript
+        >
+        <main id="main">
+            <section class="section container">
+                <p class="eyebrow">LET'S TALK TOYS</p>
+                <h1>A little help?</h1>
+                <p class="lead">Questions, ideas or a favourite you think we should stock?</p>
+                <div class="support-layout">
+                    <form id="supportForm" class="panel" novalidate>
+                        <h2>Leave feedback</h2>
+                        <label for="supportName">Name</label
+                        ><input
+                            id="supportName"
+                            autocomplete="name"
+                            required
+                            minlength="2"
+                            maxlength="80"
+                            aria-describedby="supportNameError"
+                        >
+                        <p class="field-error" id="supportNameError"></p>
+                        <label for="supportEmail">Email address</label
+                        ><input
+                            id="supportEmail"
+                            type="email"
+                            autocomplete="email"
+                            required
+                            maxlength="120"
+                            aria-describedby="supportEmailError"
+                        >
+                        <p class="field-error" id="supportEmailError"></p>
+                        <label for="supportMessage">Message</label
+                        ><textarea
+                            id="supportMessage"
+                            required
+                            minlength="10"
+                            maxlength="1000"
+                            rows="5"
+                            aria-describedby="supportMessageError"
+                        ></textarea>
+                        <p class="field-error" id="supportMessageError"></p>
+                        <p class="muted">
+                            Feedback is saved on this device and is not sent to a support team.
+                        </p>
+                        <button type="submit">Save feedback</button>
+                        <p id="supportSuccess" role="status"></p>
+                    </form>
+                    <section class="faq">
+                        <h2>Good questions.</h2>
+                        <div class="faq-item">
+                            <h3>
+                                <button
+                                    class="faq-question"
+                                    aria-expanded="false"
+                                    aria-controls="answer0"
+                                >
+                                    How do I add a product?<span aria-hidden="true">+</span>
+                                </button>
+                            </h3>
+                            <div class="faq-answer" id="answer0" hidden>
+                                <p>
+                                    Open Products and select Add to cart. You can change quantities
+                                    in your cart before checkout.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <h3>
+                                <button
+                                    class="faq-question"
+                                    aria-expanded="false"
+                                    aria-controls="answer1"
+                                >
+                                    Can I save items without buying?<span aria-hidden="true"
+                                        >+</span
+                                    >
+                                </button>
+                            </h3>
+                            <div class="faq-answer" id="answer1" hidden>
+                                <p>
+                                    Yes. Select Save to collection and mark each item Interested,
+                                    Owned or Not Interested.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <h3>
+                                <button
+                                    class="faq-question"
+                                    aria-expanded="false"
+                                    aria-controls="answer2"
+                                >
+                                    Will my cart survive a refresh?<span aria-hidden="true">+</span>
+                                </button>
+                            </h3>
+                            <div class="faq-answer" id="answer2" hidden>
+                                <p>
+                                    Yes, in the same browser. Clearing website data or using another
+                                    browser will not preserve your saved items.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <h3>
+                                <button
+                                    class="faq-question"
+                                    aria-expanded="false"
+                                    aria-controls="answer3"
+                                >
+                                    Are payments real?<span aria-hidden="true">+</span>
+                                </button>
+                            </h3>
+                            <div class="faq-answer" id="answer3" hidden>
+                                <p>
+                                    No. Payment preferences are recorded with your order, but no payment is processed.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <h3>
+                                <button
+                                    class="faq-question"
+                                    aria-expanded="false"
+                                    aria-controls="answer4"
+                                >
+                                    Can I use the site offline?<span aria-hidden="true">+</span>
+                                </button>
+                            </h3>
+                            <div class="faq-answer" id="answer4" hidden>
+                                <p>
+                                    After the first complete online visit has cached the site, the
+                                    catalogue and local shopping features can work offline in a
+                                    supported browser.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="container footer-grid">
+                <div>
+                    <a class="brand" href="index.html">TOY HAVEN</a>
+                    <p>For the shelf. For the table.<br >For the joy of it.</p>
+                </div>
+                <div>
+                    <h2 class="footer-title">Explore</h2>
+                    <ul class="footer-links">
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="wishlist.html">My collection</a></li>
+                        <li><a href="cart.html">Shopping cart</a></li>
+                        <li><a href="support.html">Feedback &amp; support</a></li>
+                    </ul>
+                </div>
+                <form id="newsletterForm" novalidate>
+                    <h2 class="footer-title">Make room for the next find.</h2>
+                    <label for="newsletterEmail">Email address</label>
+                    <div class="newsletter-row">
+                        <input
+                            id="newsletterEmail"
+                            type="email"
+                            autocomplete="email"
+                            required
+                            maxlength="120"
+                            placeholder="you@example.com"
+                            aria-describedby="newsletterMessage"
+                        ><button type="submit">Join list</button>
+                    </div>
+                    <p id="newsletterMessage" role="status"></p>
+                </form>
+            </div>
+            <div class="container footer-bottom">
+                <span>© 2026 Toy Haven</span
+                ><span>Made for collectors. Chosen with care.</span>
+            </div>
+        </footer>
+        <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+{
+    "name": "Toy Haven \u2014 The Collector\u2019s Corner",
+    "short_name": "Toy Haven",
+    "description": "A student demonstration store for toys and collectibles.",
+    "id": "./",
+    "start_url": "./index.html",
+    "scope": "./",
+    "display": "standalone",
+    "background_color": "#f5f3ed",
+    "theme_color": "#202522",
+    "icons": [
+        {
+            "src": "assets/icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}

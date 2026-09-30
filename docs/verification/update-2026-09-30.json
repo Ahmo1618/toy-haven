@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-30",
+  "checks": [
+    "16 products, four per category",
+    "16 distinct local product image paths exist",
+    "9 JavaScript syntax checks pass",
+    "All six app-page local links and IDs checked",
+    "All 36 service-worker cache entries exist",
+    "Department image fit is contain; caption is not an absolute overlay"
+  ],
+  "browser_visual_qa": "Not run",
+  "external_validators": "Prior evidence retained; updated files require revalidation"
+}

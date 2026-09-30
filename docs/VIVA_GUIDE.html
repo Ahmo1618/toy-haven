@@ -1,0 +1,514 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Toy Haven complete viva guide</title><style>body{font:16px/1.65 Arial,Helvetica,sans-serif;color:#202522;background:#f5f3ed;margin:0}main{max-width:980px;margin:48px auto;padding:36px;background:white}h1{font-size:36px;line-height:1.15}h2{margin-top:44px;line-height:1.25}h3{margin-top:30px}a{color:#22557a;text-underline-offset:3px}table{border-collapse:collapse;width:100%;margin:24px 0;font-size:14px}th,td{border:1px solid #cbd0c8;padding:10px;text-align:left;vertical-align:top}th{background:#e7e9e2}tr{break-inside:avoid}pre{padding:18px;overflow:auto;background:#f2f2ee}code{font-family:Consolas,monospace;font-size:.93em}li{margin-bottom:8px}.meta{color:#5c635d}.pass{color:#1c642e;font-weight:bold}.pending{color:#8b4a00;font-weight:bold}img{max-width:100%}@media(max-width:650px){main{margin:0;padding:22px}h1{font-size:30px}table{font-size:12px}th,td{padding:7px;overflow-wrap:anywhere}}@media print{body{background:white}main{margin:0;max-width:none;padding:0}a{color:inherit}h1,h2,h3{break-after:avoid}table{font-size:11px}pre{white-space:pre-wrap}}</style></head><body><main><h1>Toy Haven from first file to final demonstration</h1><nav aria-label="Contents"><h2>Contents</h2><ol><li><a href="#section-1">1. What you have built</a></li><li><a href="#section-2">2. Open and run the project</a></li><li><a href="#section-3">3. Languages and browser features</a></li><li><a href="#section-4">4. What happens when Home loads</a></li><li><a href="#section-5">5. Read the HTML from top to bottom</a></li><li><a href="#section-6">6. Read the CSS</a></li><li><a href="#section-7">7. JavaScript essentials used here</a></li><li><a href="#section-8">8. Shared functions in app.js</a></li><li><a href="#section-9">9. Follow one Add to cart click</a></li><li><a href="#section-10">10. Each page script</a></li><li><a href="#section-11">11. Storage you can inspect</a></li><li><a href="#section-12">12. Understand PWA support honestly</a></li><li><a href="#section-13">13. Debugging and testing</a></li><li><a href="#section-14">14. GitHub Pages deployment</a></li><li><a href="#section-15">15. Fifteen-minute rehearsal</a></li><li><a href="#section-16">16. Questions you should be able to answer</a></li><li><a href="#section-17">17. Make three decisions yourself</a></li><li><a href="#section-18">18. Connect this project to your class materials</a></li><li><a href="#section-19">19. Your study route in five sessions</a></li><li><a href="#section-20">20. Read one real function line by line</a></li></ol></nav>
+<p>This guide explains the actual website in this folder. Read a section, open the named file, then make the suggested change yourself. If you can repeat an explanation but cannot predict what a change will do, you are not ready for the viva.</p>
+<h2 id="section-1">1. What you have built</h2>
+<p>Toy Haven is a six-page, front-end demonstration shop for figurines, toys, board games and diecast cars. The visual direction is a collector&#39;s catalogue: warm ivory, charcoal, amber buttons, numbered departments and neutral product photography. It serves collectors without hiding games or gifts from other visitors.</p>
+<p>It uses plain HTML, CSS and JavaScript. There is no React, Bootstrap, Node server, database or payment gateway in the application. The sixteen products and LKR prices are fictional examples. Images were generated with AI and optimised as local WebP files. The site does not send email, ship products or charge cards.</p>
+<p>“Beginner-friendly” does not mean every feature is trivial. The brief requires a modal, persistent data and PWA behaviour. These require learning beyond headings and buttons. Page scripts are separated, functions have descriptive names, and comments explain the less obvious decisions.</p>
+<h2 id="section-2">2. Open and run the project</h2>
+<ol>
+<li>Extract the ZIP completely into a new folder. Do not work inside the ZIP viewer.</li>
+<li>Open the <code>toy-haven</code> folder in VS Code. <code>index.html</code>, <code>css</code>, <code>js</code> and <code>assets</code> must stay together.</li>
+<li>Use VS Code&#39;s Live Server extension to open <code>index.html</code>. Alternatively, if Python is installed, open a terminal in this folder and run <code>python -m http.server 5500</code>, then visit <code>http://localhost:5500</code>.</li>
+<li>Keep using the same address and port while testing. <code>localhost</code> and <code>127.0.0.1</code> are different hostnames; changing host, port or protocol changes the storage origin.</li>
+<li>Save your edits and refresh. If the old version persists, unregister this project&#39;s service worker in DevTools → Application → Service Workers, then reload. For a released update, change <code>CACHE_NAME</code> in <code>sw.js</code> too.</li>
+</ol>
+<p>VS Code edits the files. Live Server serves them over HTTP. The browser reads and runs them. None of these is the HTML language itself. Python is only an optional development server; it is not part of the website&#39;s application code.</p>
+<p>Opening an HTML file directly may show the layout, but use a local server for reliable storage and service-worker testing. A manifest alone does not prove offline support. Service workers need an appropriate secure context such as HTTPS or localhost. See the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">MDN service worker guide</a>.</p>
+<h2 id="section-3">3. Languages and browser features</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Job in this project</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>HTML</td>
+<td>Describes content and its meaning</td>
+<td>Navigation, product container, labelled form</td>
+</tr>
+<tr>
+<td>CSS</td>
+<td>Controls appearance and layout</td>
+<td>Grid columns, colours, spacing, hover effects</td>
+</tr>
+<tr>
+<td>JavaScript</td>
+<td>Implements behaviour and decisions</td>
+<td>Search, totals, validation, saved selections</td>
+</tr>
+<tr>
+<td>JSON</td>
+<td>Text format used to store structured data</td>
+<td>A cart array converted to a string</td>
+</tr>
+<tr>
+<td>DOM</td>
+<td>Browser representation of the HTML document</td>
+<td><code>document.getElementById(&#39;cartCount&#39;)</code></td>
+</tr>
+<tr>
+<td>localStorage</td>
+<td>Browser key/value storage</td>
+<td>Cart and wishlist survive a refresh</td>
+</tr>
+<tr>
+<td>Web app manifest</td>
+<td>Describes the installable app</td>
+<td>Name, icons, launch URL, display mode</td>
+</tr>
+<tr>
+<td>Service worker</td>
+<td>Handles cached file requests</td>
+<td>Previously cached pages work offline</td>
+</tr>
+</tbody></table>
+<p>HTML and CSS are not general-purpose programming languages. JSON is a data format, not a database. DOM and localStorage are browser APIs used through JavaScript. The service worker is also written in JavaScript, but runs separately from the page and cannot directly manipulate its DOM.</p>
+<h2 id="section-4">4. What happens when Home loads</h2>
+<p>The browser requests <code>index.html</code>. It reads the head, discovers <code>css/style.css</code>, the icon, manifest and three scripts. The CSS tells the browser how to lay out elements. The scripts have <code>defer</code>, so they download without immediately interrupting HTML parsing and run after the document has been parsed, in their listed order.</p>
+<p><code>data.js</code> defines the products. <code>app.js</code> defines shared functions and connects the menu, newsletter, cart badge and scroll effects. <code>index.js</code> builds the daily product, featured cards and carousel. The page script relies on definitions from the earlier scripts. Reversing their order can cause a reference error.</p>
+<p>Once the page loads, <code>app.js</code> attempts to register <code>sw.js</code>. The service worker installs and caches the files listed in <code>FILES</code>. A later request can use a cached response. No compilation or bundling is required to publish this static project.</p>
+<p><strong>Try it:</strong> temporarily rename <code>js/data.js</code> in the HTML script path. Predict the result, inspect the Console and Network tabs, then restore it. A missing dependency can break several downstream features.</p>
+<h2 id="section-5">5. Read the HTML from top to bottom</h2>
+<p><code>&lt;!DOCTYPE html&gt;</code> requests standards mode. <code>&lt;html lang=&quot;en&quot;&gt;</code> identifies English. <code>&lt;meta charset=&quot;UTF-8&quot;&gt;</code> sets character encoding. The viewport meta tag lets mobile layouts use the device width. The title appears in the browser tab, while the description gives a concise page summary.</p>
+<p>The head links the stylesheet, favicon and manifest. Relative paths such as <code>css/style.css</code> are resolved from the current document&#39;s folder. Keeping the six pages in the same directory makes these paths predictable, including when GitHub Pages serves the project under a repository subfolder.</p>
+<p>The body begins with a skip link. Keyboard users can jump past repeated navigation to <code>&lt;main id=&quot;main&quot;&gt;</code>. <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code> and <code>&lt;footer&gt;</code> give content meaning. An article is used for a product card; navigation is used for page links. A <code>&lt;div&gt;</code> is a generic container when a more specific meaning is unnecessary.</p>
+<p>Each page has one main heading. Lower headings group its content. Lists organise footer links. The modal has a table because product attributes are a genuine label/value mapping. Do not use a table simply to position the whole page.</p>
+<p>An <code>id</code> identifies one element within that document. A <code>class</code> can be shared by many elements. <code>#cartCount</code> is a CSS selector for one ID; <code>.product-card</code> selects every element using that class. <code>href</code> is the destination of a link; <code>src</code> identifies an image or script resource.</p>
+<p>Use a link for navigation and a button for an action. An image needs alternative text that describes its meaningful content. Decorative marks are hidden from assistive technology with <code>aria-hidden</code>. Form labels connect to inputs through matching <code>for</code> and <code>id</code> values.</p>
+<p>The product dialog is a native <code>&lt;dialog&gt;</code>. JavaScript calls <code>showModal()</code> and <code>close()</code>. This gives built-in focus containment and Escape behaviour without a custom focus-trap library. A missing-JavaScript message explains why dynamic products or forms are unavailable.</p>
+<p><strong>Try it:</strong> change the Home headline in HTML and notice the carousel can replace it later. To change the rotating headline permanently, edit the matching slide object in <code>js/index.js</code> too.</p>
+<h2 id="section-6">6. Read the CSS</h2>
+<p>The stylesheet is divided into numbered sections: foundations, header/footer, Home, catalogue/modal, cart, checkout/support, feedback effects and responsive rules. Shared selectors let six pages use the same visual rules.</p>
+<p><code>:root</code> defines colour variables, such as <code>--accent</code>. <code>var(--accent)</code> reuses the value. Changing the variable updates all matching buttons. This avoids hunting for several slightly different colour values.</p>
+<p>The box model is content plus padding, border and margin. Padding creates space inside a box; margin creates space outside it. <code>box-sizing: border-box</code> makes declared widths include padding and borders, which makes columns easier to size.</p>
+<p>Flexbox is used for rows such as navigation and button groups. Grid is used for product collections and two-column page layouts. <code>gap</code> separates items without adding margins to each card. The container uses a percentage width with a maximum width, so content has breathing room on small screens and does not stretch indefinitely on large ones.</p>
+<p>Base rules target small screens. At 600px, cards use two columns. At 900px, the navigation is expanded and catalogue cards use four columns; cart and checkout gain side-by-side summaries. At 1000px, the Home hero puts copy and artwork side by side. These are width breakpoints, not guesses about device brands.</p>
+<p><code>object-fit: contain</code> keeps complete product images visible. <code>object-fit: cover</code> fills a box and may crop an image. Local WebP assets reduce downloads compared with the original full-resolution generated PNGs. <code>loading=&quot;lazy&quot;</code> defers below-the-fold images; the first hero image has higher priority.</p>
+<p><code>:hover</code> styles pointing-device interaction. <code>:focus-visible</code> supplies a visible keyboard focus indicator. <code>transition</code> animates a change between states. <code>@keyframes</code> defines an animation sequence, used for checkout success. The hamburger icon is built with a span and <code>::before</code>/<code>::after</code>; changing <code>aria-expanded</code> changes its visual state.</p>
+<p>Scroll reveals add a temporary class and remove it when a section enters the viewport. A reduced-motion preference disables unnecessary movement. Content starts visible so a JavaScript failure does not permanently hide whole sections.</p>
+<p><strong>Try it:</strong> change the product grid from four desktop columns to three, then explain why you changed the rule inside the desktop media query rather than the one-column base rule.</p>
+<h2 id="section-7">7. JavaScript essentials used here</h2>
+<table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>Meaning</th>
+<th>Actual use</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>const</code></td>
+<td>Binding cannot be reassigned</td>
+<td>Product array reference</td>
+</tr>
+<tr>
+<td><code>let</code></td>
+<td>Binding may be reassigned</td>
+<td>Current slide index and running totals</td>
+</tr>
+<tr>
+<td>Object</td>
+<td>Named properties describing one item</td>
+<td>Product with ID, name and price</td>
+</tr>
+<tr>
+<td>Array</td>
+<td>Ordered collection of values</td>
+<td>Products, cart items, feedback</td>
+</tr>
+<tr>
+<td>Function</td>
+<td>Reusable instructions, optionally returning a value</td>
+<td><code>money(value)</code></td>
+</tr>
+<tr>
+<td>Parameter</td>
+<td>Name for an input inside a function</td>
+<td><code>id</code> in <code>getProduct(id)</code></td>
+</tr>
+<tr>
+<td>Argument</td>
+<td>Value supplied when calling it</td>
+<td><code>getProduct(3)</code> supplies 3</td>
+</tr>
+<tr>
+<td>Conditional</td>
+<td>Chooses a branch</td>
+<td>Existing cart item or new one</td>
+</tr>
+<tr>
+<td>Event listener</td>
+<td>Function called when an event occurs</td>
+<td>Click Add to cart</td>
+</tr>
+<tr>
+<td>Callback</td>
+<td>Function passed to another function</td>
+<td>Function given to <code>filter</code></td>
+</tr>
+<tr>
+<td>Template literal</td>
+<td>Backtick string with inserted values</td>
+<td><code>${product.name}</code> in a card</td>
+</tr>
+</tbody></table>
+<p><code>const</code> does not freeze an array or object. You can push onto a const array or change an object&#39;s property; you cannot assign a different array to that same binding.</p>
+<p><code>===</code> compares without automatic type conversion. <code>Number(id)</code> converts an ID taken from text into a number. <code>&amp;&amp;</code> means both conditions must be true; <code>||</code> means at least one may be true; <code>!</code> negates a condition. <code>return</code> exits a function and can provide its result.</p>
+<p><code>find</code> returns the first matching item or <code>undefined</code>. <code>filter</code> returns a new array containing all matches. <code>forEach</code> performs an operation for each item; it is not used to return a filtered list. <code>push</code> appends an item, <code>pop</code> removes the last item, and <code>includes</code> checks whether a string contains text or an array contains a value.</p>
+<p><code>textContent</code> inserts plain text. <code>innerHTML</code> parses HTML. This project uses <code>innerHTML</code> for developer-controlled catalogue templates, and <code>textContent</code> for messages. Do not insert untrusted customer messages as raw HTML; that can turn input into executable markup.</p>
+<p><code>event.preventDefault()</code> stops the browser&#39;s normal form submission. The local demo validates and saves information without navigating away. It does not stop the click from reaching every other listener; that is a different concept called event propagation.</p>
+<h2 id="section-8">8. Shared functions in app.js</h2>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>What it does and why</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>showMessage</code></td>
+<td>Shows a temporary status message and replaces its previous timer</td>
+</tr>
+<tr>
+<td><code>readList</code></td>
+<td>Reads JSON, checks it is an array and returns an empty array if absent or unreadable</td>
+</tr>
+<tr>
+<td><code>saveList</code></td>
+<td>Converts an array to JSON and returns whether browser storage succeeded</td>
+</tr>
+<tr>
+<td><code>getProduct</code></td>
+<td>Finds the catalogue product for an ID</td>
+</tr>
+<tr>
+<td><code>money</code></td>
+<td>Formats a numeric amount with an LKR label</td>
+</tr>
+<tr>
+<td><code>getCart</code></td>
+<td>Rejects invalid stored IDs and quantities outside 1–99</td>
+</tr>
+<tr>
+<td><code>cartTotal</code></td>
+<td>Adds each current product price multiplied by its quantity</td>
+</tr>
+<tr>
+<td><code>updateCartCount</code></td>
+<td>Shows total units, not just the number of different products</td>
+</tr>
+<tr>
+<td><code>addToCart</code></td>
+<td>Increments an existing item or adds a new ID/quantity pair</td>
+</tr>
+<tr>
+<td><code>getWishlist</code></td>
+<td>Keeps only valid products with an allowed status</td>
+</tr>
+<tr>
+<td><code>addToWishlist</code></td>
+<td>Adds an Interested item and prevents duplicates</td>
+</tr>
+<tr>
+<td><code>productCard</code></td>
+<td>Builds a reusable card and connects its buttons</td>
+</tr>
+<tr>
+<td><code>emptyState</code></td>
+<td>Creates consistent empty-cart, collection or search feedback</td>
+</tr>
+<tr>
+<td><code>validateField</code></td>
+<td>Trims text, checks constraints and updates the associated error message</td>
+</tr>
+<tr>
+<td><code>revealOnScroll</code></td>
+<td>Reveals sections that have approached the visible viewport</td>
+</tr>
+</tbody></table>
+<p>The end of the file connects shared behaviour: menu toggling, Escape to close the menu, newsletter submission, the cart badge, cross-tab storage changes, scroll events and service-worker registration.</p>
+<p><code>try...catch</code> handles operations that can fail, such as parsing malformed JSON or saving to a full/blocked storage area. A successful-looking button message should not be shown after saving has failed.</p>
+<h2 id="section-9">9. Follow one Add to cart click</h2>
+<ol>
+<li><code>productCard</code> connects a click listener to the card&#39;s Add button.</li>
+<li>The listener calls <code>addToCart(product.id)</code>.</li>
+<li><code>getProduct</code> checks that the ID is a real catalogue product.</li>
+<li><code>getCart</code> reads the current saved cart and filters invalid entries.</li>
+<li><code>find</code> checks whether this ID is already present.</li>
+<li>If present, quantity increases unless it is already 99. Otherwise <code>{ id: product.id, quantity: 1 }</code> is pushed.</li>
+<li><code>saveList(&#39;cart&#39;, cart)</code> converts and saves the updated array.</li>
+<li>If saving succeeds, the badge updates and a message confirms the addition.</li>
+</ol>
+<p>Example: Lunar Explorer is LKR 4,500. Add it twice and a LKR 2,800 teddy once. The cart contains two records but three units. The total is <code>4500 * 2 + 2800 * 1 = 11800</code>. The badge should show <strong>3</strong>, not 2.</p>
+<p><strong>Challenge:</strong> before clicking anything, write the expected array, badge and total. Check all three in the running site.</p>
+<h2 id="section-10">10. Each page script</h2>
+<h3>Home in index.js</h3>
+<p>The <code>slides</code> array stores image, heading, description, category and alternative text. <code>showSlide</code> updates the DOM. The next index is <code>(slideIndex + 1) % slides.length</code>; the remainder wraps the last slide back to zero. Previous adds the array length before taking the remainder to avoid a negative index.</p>
+<p><code>setInterval</code> rotates every 6,000 milliseconds. <code>clearInterval</code> prevents accumulating multiple timers. The page offers pause/resume, pauses when hidden, and pauses when keyboard users interact with carousel controls. Reduced-motion users start with rotation paused.</p>
+<p>The daily feature converts the local calendar date to an integer day number using <code>Date.UTC</code>, then uses the remainder after division by <code>products.length</code> as an index. It stays consistent for a local calendar date and changes when the page is loaded on another date. It is deterministic, not random. An already-open page does not automatically refresh its daily choice at midnight.</p>
+<h3>Catalogue in products.js</h3>
+<p><code>displayProducts</code> normalises the search term with <code>trim().toLowerCase()</code>. Each product must match both the selected category and the name search. The filtered array becomes cards. Zero matches produces an empty-state message. Reset clears both controls.</p>
+<p><code>URLSearchParams</code> reads links such as <code>products.html?category=Toys</code> or <code>?product=3</code>. <code>encodeURIComponent</code> makes spaces and other characters safe when building the category query. A product link opens the modal, whose buttons reuse the shared cart and wishlist functions.</p>
+<h3>Cart in cart.js</h3>
+<p><code>displayCart</code> builds one row per saved product. It looks up current names and prices from the catalogue. <code>changeQuantity</code> changes the requested item, caps it at 99 and filters out quantities at or below zero. Minus at one therefore removes the item. Remove subtracts the whole quantity. Clear saves an empty array. An empty cart hides the checkout link.</p>
+<p>The rows are rebuilt after an update, so the script deliberately restores keyboard focus to an appropriate control. A storage event refreshes the page when another tab changes the cart.</p>
+<h3>Checkout in checkout.js</h3>
+<p><code>loadSummary</code> shows the cart items and calculated total; an empty cart disables ordering. The submit listener validates name, email, delivery address and the selected payment method. Whitespace-only input is rejected. Errors are linked to fields and focus moves to the first invalid input.</p>
+<p>The order copies product names and prices into item snapshots. If the catalogue price changes later, that saved order still records what the demo order cost. The order also stores a timestamp, customer details and the simulated payment selection. <code>Date.now()</code> supplies a simple demo reference, not a guaranteed globally unique production order number.</p>
+<p>Only after the order saves does the script clear the cart and show the animated confirmation. It attempts to roll back the new order if clearing the cart fails. localStorage operations are not a database transaction, so this remains a small demonstration, not a production checkout.</p>
+<p>Card is a simulated choice, not a form requesting a real card number. Cash on Delivery is also simulated. There is no payment provider, bank request or delivery arrangement.</p>
+<h3>Collection in wishlist.js</h3>
+<p>The page displays saved products with Interested, Owned and Not Interested choices. Changing a select saves its value, redraws the count and restores focus. Adding the same product again does not create a duplicate. Remove deletes only the selected collection entry; it does not change the shopping cart.</p>
+<h3>Support in support.js</h3>
+<p>The form checks name, email and message, appends a feedback object, and shows confirmation only after storage succeeds. A FAQ button toggles its answer&#39;s <code>hidden</code> property and its own <code>aria-expanded</code> state. Each answer can open independently.</p>
+<h2 id="section-11">11. Storage you can inspect</h2>
+<p>All project keys start with <code>toyHaven.final.</code>. Earlier demo records use a different prefix and are not imported automatically.</p>
+<table>
+<thead>
+<tr>
+<th>Key suffix</th>
+<th>Stored value</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>cart</code></td>
+<td>Array of product IDs and quantities</td>
+</tr>
+<tr>
+<td><code>wishlist</code></td>
+<td>Array of product IDs and collection statuses</td>
+</tr>
+<tr>
+<td><code>newsletter</code></td>
+<td>Array of normalised email addresses</td>
+</tr>
+<tr>
+<td><code>feedback</code></td>
+<td>Array of names, emails, messages and dates</td>
+</tr>
+<tr>
+<td><code>orders</code></td>
+<td>Array of order snapshots and customer details</td>
+</tr>
+</tbody></table>
+<p>localStorage stores strings. <code>JSON.stringify</code> turns an array into text; <code>JSON.parse</code> reconstructs the data. In DevTools → Application → Local Storage, inspect the matching origin and project key. A missing key, malformed JSON or a non-array value returns an empty list.</p>
+<p>Storage is local to the browser and origin. It does not synchronise to another device or create an account. The user can edit or clear it, and browser settings can block it. Do not treat saved totals as secure or trusted on a real shopping site. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">MDN localStorage</a>.</p>
+<p>Use invented test names and addresses. To reset only this project in the Console:</p>
+<pre><code class="language-js">[&#39;cart&#39;, &#39;wishlist&#39;, &#39;newsletter&#39;, &#39;feedback&#39;, &#39;orders&#39;].forEach(function (key) {
+    localStorage.removeItem(&#39;toyHaven.final.&#39; + key);
+});
+location.reload();
+</code></pre>
+<h2 id="section-12">12. Understand PWA support honestly</h2>
+<p><code>manifest.webmanifest</code> is a JSON file describing the name, short name, start URL, scope, display mode, colours and icons. The 192px and 512px PNG icons are local assets. The SVG favicon is used in browser tabs.</p>
+<p><code>sw.js</code> has three event listeners. Install opens a versioned cache and adds the listed files. Activate removes older caches belonging to this project and takes control of open clients. Fetch handles same-origin GET requests and looks in the current cache before using the network.</p>
+<p><code>event.waitUntil(promise)</code> tells the browser that lifecycle work is still pending. A Promise represents an operation that will finish later. <code>.then(...)</code> runs the next step when it succeeds; <code>.catch(...)</code> handles a failure. <code>event.respondWith(...)</code> supplies the response for an intercepted request.</p>
+<p>This is a cache-first strategy: predictable offline operation for a small static demo, but stale files are possible if you do not update the cache version. Add new application assets to <code>FILES</code>. The guide and wireframes are not part of the offline app cache. Install prompts vary by browser; do not claim every browser will display the same button.</p>
+<p><strong>Explain it without jargon:</strong> “The first successful online visit saves the site files. Later, the service worker can return those saved files if the network is unavailable.” Then show the actual cache and test offline on your laptop.</p>
+<h2 id="section-13">13. Debugging and testing</h2>
+<p>Start with the Console for JavaScript errors and Network for missing files. A 404 means the requested file was not found. A <code>ReferenceError</code> often means a name is missing or a script ran in the wrong order. A null-element error often means the HTML ID differs from the one JavaScript expects or the wrong page script is loaded.</p>
+<p>Check the Elements panel and computed CSS when layout looks wrong. Check localStorage when data is wrong. Check Service Workers and Cache Storage when old code remains after an edit. Changing random lines without locating the source is not debugging.</p>
+<p>Read <code>TEST_REPORT.html</code> for actual checks and pending browser checks. The assessment specifically names W3C HTML, W3C CSS, WAVE, desktop/mobile Lighthouse and responsive testing. Passing local logic tests does not substitute for these tools. Record your own screenshots and the final hosted URL.</p>
+<h2 id="section-14">14. GitHub Pages deployment</h2>
+<ol>
+<li>Create a repository such as <code>toy-haven-website</code> in your GitHub account.</li>
+<li>Upload the contents of <code>toy-haven</code> so <code>index.html</code> is at the repository root. Do not upload only the ZIP or bury the site inside another folder.</li>
+<li>Commit the files to <code>main</code>.</li>
+<li>Open repository Settings → Pages. Select Deploy from a branch, <code>main</code>, and <code>/(root)</code>, then save.</li>
+<li>Wait for the deployment result and open the URL GitHub provides. Do not invent the final link before deployment succeeds.</li>
+<li>Test all six pages, images, filters, checkout and offline support at that URL. Add it to the submission document.</li>
+</ol>
+<p>These settings follow <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site">GitHub&#39;s publishing-source instructions</a>. Git tracks file history; GitHub hosts repositories; GitHub Pages serves the static website. These are related but different things.</p>
+<h2 id="section-15">15. Fifteen-minute rehearsal</h2>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Demonstrate and explain</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0–2 minutes</td>
+<td>Audience, design decisions, six pages and responsive menu</td>
+</tr>
+<tr>
+<td>2–4 minutes</td>
+<td>Carousel, daily selection, search plus category filter, modal</td>
+</tr>
+<tr>
+<td>4–6 minutes</td>
+<td>Add duplicate products, quantities, correct arithmetic, refresh persistence</td>
+</tr>
+<tr>
+<td>6–8 minutes</td>
+<td>Invalid checkout, valid simulated checkout and order storage</td>
+</tr>
+<tr>
+<td>8–9 minutes</td>
+<td>Collection statuses and persistence</td>
+</tr>
+<tr>
+<td>9–10 minutes</td>
+<td>Support validation, FAQ and newsletter</td>
+</tr>
+<tr>
+<td>10–12 minutes</td>
+<td>File structure, shared function and storage format</td>
+</tr>
+<tr>
+<td>12–15 minutes</td>
+<td>A requested code change, test evidence and limitations</td>
+</tr>
+</tbody></table>
+<p>Practise these changes without copying a prepared answer: change one price, add a seventeenth product with a unique ID, change the accent colour, alter the carousel interval, explain the AND condition in filtering, and change a validation minimum consistently in HTML and its error message. Recheck the result each time.</p>
+<h2 id="section-16">16. Questions you should be able to answer</h2>
+<p><strong>Why six separate HTML pages?</strong> The brief asks for a multi-page site. Separate pages keep navigation and page-specific code easy to follow at this level.</p>
+<p><strong>Why repeat the header markup?</strong> In a six-page static beginner project it is straightforward to inspect and edit. The cost is keeping copies consistent. Shared CSS and behaviour still avoid most duplication.</p>
+<p><strong>Why use JavaScript objects instead of a database?</strong> The brief permits objects and only requires front-end technology. Sixteen static demo products do not require server-side data management.</p>
+<p><strong>Why save IDs in the cart?</strong> An ID refers to the shared product record without duplicating every name and description. The displayed cart price comes from current catalogue data.</p>
+<p><strong>Why copy prices into orders?</strong> An order is a historical record; changing the catalogue later should not silently change the amount recorded for that order.</p>
+<p><strong>Can localStorage protect payment information?</strong> No. It is browser-accessible storage that users and page scripts can modify. This demo does not collect real payment credentials.</p>
+<p><strong>How does filtering combine with searching?</strong> A product must satisfy the category condition AND the case-insensitive name condition.</p>
+<p><strong>What happens if JavaScript is disabled?</strong> Static navigation and page structure remain, but catalogue generation, cart features, validation and dynamic content need JavaScript. The site displays a notice.</p>
+<p><strong>What is reused across pages?</strong> <code>money</code>, <code>getProduct</code>, storage helpers, validation and cart functions. <code>productCard</code> is shared by Home and Products.</p>
+<p><strong>Is the daily item random?</strong> No. A deterministic date-based index chooses the same item for the same local calendar date when loaded.</p>
+<p><strong>What would a real store need?</strong> A backend, trusted product and stock data, accounts if required, server-side validation, secure order processing, a payment provider, and genuine fulfilment. None is secretly provided by GitHub Pages.</p>
+<p><strong>What did AI help with?</strong> Explain the assistance honestly under your module&#39;s rules: code revision, generated product imagery, documentation and wireframes. Do not claim work or testing you did not do. Your defence is understanding, personalisation and demonstrated changes.</p>
+<h2 id="section-17">17. Make three decisions yourself</h2>
+<p>Choose one product to replace and explain why it fits the audience. Rewrite the Home introduction in your own voice. Choose one UX improvement after watching a friend use the site without instructions. Keep the six required pages and behaviours intact.</p>
+<p>Before the viva, close this guide and answer: “Where does the price on this screen come from, which function changes the quantity, and which exact key makes it survive refresh?” If you cannot trace that path, practise it again in the code.</p>
+<h2 id="section-18">18. Connect this project to your class materials</h2>
+<table>
+<thead>
+<tr>
+<th>Supplied lesson</th>
+<th>Find the idea in this project</th>
+<th>Demonstrate it yourself</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>01. Basics of Web Design.pptx</td>
+<td>Clear navigation, page purpose and audience</td>
+<td>Explain who uses the collection status selector</td>
+</tr>
+<tr>
+<td>02. Web Designing Using Wireframes.pptx</td>
+<td>Six desktop and six mobile layouts</td>
+<td>Show how Cart changes from two columns to one</td>
+</tr>
+<tr>
+<td>04. intrduction to html II.pptx and HTML .docx</td>
+<td>Links, images, lists, forms and product information table</td>
+<td>Connect one label to its input using matching IDs</td>
+</tr>
+<tr>
+<td>css.pdf</td>
+<td>Shared selectors, spacing and responsive layout</td>
+<td>Change a grid breakpoint, then predict the result</td>
+</tr>
+<tr>
+<td>js.pptx and variables.pptx</td>
+<td>External scripts, const and let</td>
+<td>Explain why slideIndex uses let</td>
+</tr>
+<tr>
+<td>function .pptx</td>
+<td>Named functions, parameters and return values</td>
+<td>Call money(11800) and explain its output</td>
+</tr>
+<tr>
+<td>js (1).pptx</td>
+<td>Callback functions</td>
+<td>Identify the callback passed to filter; it runs during filtering</td>
+</tr>
+<tr>
+<td>events .pptx</td>
+<td>Click, input, change and submit listeners</td>
+<td>Explain why search uses input and a select uses change</td>
+</tr>
+<tr>
+<td>notes.pptx and notes (1).pptx</td>
+<td>Reading input and making decisions</td>
+<td>Explain the existing-item branch in addToCart</td>
+</tr>
+<tr>
+<td>Notes (2).pptx</td>
+<td>JSON and localStorage</td>
+<td>Read an actual cart entry in DevTools</td>
+</tr>
+</tbody></table>
+<p>The native dialog and service worker require additional study. PWA support is explicitly required by the brief; hiding or deleting the difficult parts would leave a requirement unmet. Learn their small, separate responsibilities after you understand normal page behaviour.</p>
+<h2 id="section-19">19. Your study route in five sessions</h2>
+<p>Do each session with the website and code open together. Move on only when you can complete the checkpoint without looking at an answer.</p>
+<ol>
+<li><strong>Structure and running:</strong> Read sections 2–5. Open all six pages. Explain browser, editor, server, relative path and defer. Checkpoint: add a new paragraph and a link to Support, then remove them.</li>
+<li><strong>Layout and styling:</strong> Read section 6. Find the container, product grid and media queries. Checkpoint: change the accent and desktop column count, predict the effects, then restore them.</li>
+<li><strong>Data and behaviour:</strong> Read sections 7–10. Start with data.js, then follow one Add click through app.js and cart.js. Checkpoint: calculate a three-item total on paper before checking the page.</li>
+<li><strong>Forms and persistence:</strong> Read sections 10–12. Test invalid input, successful checkout, collection status and feedback. Checkpoint: show the exact storage key for each feature and explain why it is not a database.</li>
+<li><strong>Defence and deployment:</strong> Read sections 13–17. Complete the real-browser audit record and rehearse with a timer. Checkpoint: change a product price while someone watches, then explain what changes in the cart and what remains fixed in an old order.</li>
+</ol>
+<p>If your explanation fails at one step, return to that file. Memorising the finished answer will not help when the lecturer asks you to change it.</p>
+<h2 id="section-20">20. Read one real function line by line</h2>
+<p>This is the total calculation used by both Cart and Checkout:</p>
+<pre><code class="language-js">function cartTotal(cart) {
+    let total = 0;
+    cart.forEach(function (item) {
+        total += getProduct(item.id).price * item.quantity;
+    });
+    return total;
+}
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Line or expression</th>
+<th>What actually happens</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>function cartTotal(cart)</td>
+<td>Defines a function named cartTotal with a parameter called cart</td>
+</tr>
+<tr>
+<td>let total = 0</td>
+<td>Starts a running numeric total; let allows reassignment</td>
+</tr>
+<tr>
+<td>cart.forEach(function (item) {</td>
+<td>Calls the callback once for each cart record, passing that record as item</td>
+</tr>
+<tr>
+<td>item.id</td>
+<td>Reads the product ID from the current cart record</td>
+</tr>
+<tr>
+<td>getProduct(item.id).price</td>
+<td>Looks up the matching product object, then reads its current numeric price</td>
+</tr>
+<tr>
+<td>item.quantity</td>
+<td>Reads how many units of that product are in the cart</td>
+</tr>
+<tr>
+<td>price * quantity</td>
+<td>Calculates that row&#39;s subtotal</td>
+</tr>
+<tr>
+<td>total += ...</td>
+<td>Adds the subtotal to the running total; equivalent to total = total + ...</td>
+</tr>
+<tr>
+<td>});</td>
+<td>Closes the callback body and the forEach call</td>
+</tr>
+<tr>
+<td>return total</td>
+<td>Sends the final number back to whichever code called cartTotal</td>
+</tr>
+</tbody></table>
+<p><code>money(cartTotal(cart))</code> then formats that number for display. Calculation and presentation are separate: adding formatted strings such as <code>LKR 4,500</code> would not produce correct arithmetic.</p>
+<p><strong>Prediction task:</strong> The cart is <code>[{id: 1, quantity: 2}, {id: 3, quantity: 1}]</code>. Product 1 costs 4500 and product 3 costs 2800. Write total after each callback, the returned value and the displayed string. Now predict what happens if you accidentally put <code>let total = 0</code> inside the callback.</p>
+<p>Answer only after trying: the running totals are 9000 and 11800, the function returns the number 11800, and money formats it as LKR 11,800. Moving the declaration inside the callback creates a different local variable on each iteration; the return outside cannot access that variable if no outer total is declared.</p>
+<h2>30 September catalogue update</h2><p>The department cards use <code>object-fit: contain</code> and captions below the images. The catalogue now has sixteen products, four per category. <code>productReference(id)</code> uses <code>padStart</code> to keep reference numbers at three digits.</p></main></body></html>

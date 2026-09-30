@@ -1,0 +1,149 @@
+{
+  "environment": "Node VM with lightweight DOM and in-memory storage stubs; not a browser",
+  "results": [
+    {
+      "name": "Sixteen unique products across all four categories",
+      "status": "PASS"
+    },
+    {
+      "name": "Missing storage returns empty list",
+      "status": "PASS"
+    },
+    {
+      "name": "Malformed JSON returns empty list",
+      "status": "PASS"
+    },
+    {
+      "name": "Non-array storage returns empty list",
+      "status": "PASS"
+    },
+    {
+      "name": "Cart rejects unknown IDs, zero, fractions and excessive quantities",
+      "status": "PASS"
+    },
+    {
+      "name": "Repeated add increments one record and cart badge",
+      "status": "PASS"
+    },
+    {
+      "name": "Known arithmetic: two 4500 figures plus 2800 teddy equals 11800",
+      "status": "PASS"
+    },
+    {
+      "name": "Quantity limit 99 is enforced when adding",
+      "status": "PASS"
+    },
+    {
+      "name": "Unknown product cannot be added",
+      "status": "PASS"
+    },
+    {
+      "name": "Wishlist prevents duplicate products",
+      "status": "PASS"
+    },
+    {
+      "name": "Wishlist rejects invalid status and unknown ID",
+      "status": "PASS"
+    },
+    {
+      "name": "Blocked storage reports failure without successful update",
+      "status": "PASS"
+    },
+    {
+      "name": "Custom validation trims and rejects whitespace",
+      "status": "PASS"
+    },
+    {
+      "name": "Custom validation enforces minimum trimmed length",
+      "status": "PASS"
+    },
+    {
+      "name": "Wishlist normalises known IDs and rejects unknown additions",
+      "status": "PASS"
+    },
+    {
+      "name": "Minus at one removes the product",
+      "status": "PASS"
+    },
+    {
+      "name": "Cart quantity changes recalculate totals",
+      "status": "PASS"
+    },
+    {
+      "name": "Clear cart empties storage and hides checkout",
+      "status": "PASS"
+    },
+    {
+      "name": "All products initially appear in result count",
+      "status": "PASS"
+    },
+    {
+      "name": "Combined category plus case-insensitive trimmed search",
+      "status": "PASS"
+    },
+    {
+      "name": "Search and category use AND, not OR",
+      "status": "PASS"
+    },
+    {
+      "name": "Product modal selects requested product",
+      "status": "PASS"
+    },
+    {
+      "name": "Modal Close closes dialog",
+      "status": "PASS"
+    },
+    {
+      "name": "Checkout disabled with empty cart",
+      "status": "PASS"
+    },
+    {
+      "name": "Blank checkout saves no order",
+      "status": "PASS"
+    },
+    {
+      "name": "Valid Card simulation saves snapshot and clears cart",
+      "status": "PASS"
+    },
+    {
+      "name": "Empty-cart resubmission does not duplicate order",
+      "status": "PASS"
+    },
+    {
+      "name": "Cash on Delivery simulation also saves selected method",
+      "status": "PASS"
+    },
+    {
+      "name": "Support stores valid feedback",
+      "status": "PASS"
+    },
+    {
+      "name": "Newsletter deduplicates case-normalised email",
+      "status": "PASS"
+    },
+    {
+      "name": "Daily product is an existing deterministic product",
+      "status": "PASS"
+    },
+    {
+      "name": "Carousel wraps from last slide to first",
+      "status": "PASS"
+    },
+    {
+      "name": "Carousel previous wraps to last slide",
+      "status": "PASS"
+    },
+    {
+      "name": "Exactly four products per category",
+      "status": "PASS"
+    },
+    {
+      "name": "Each added product supports cart, wishlist and modal",
+      "status": "PASS"
+    },
+    {
+      "name": "Product references use three digits",
+      "status": "PASS"
+    }
+  ]
+}

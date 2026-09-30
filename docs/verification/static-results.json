@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "index.html: local files, IDs, labels, image alt, main heading and ARIA references checked",
+    "products.html: local files, IDs, labels, image alt, main heading and ARIA references checked",
+    "cart.html: local files, IDs, labels, image alt, main heading and ARIA references checked",
+    "checkout.html: local files, IDs, labels, image alt, main heading and ARIA references checked",
+    "wishlist.html: local files, IDs, labels, image alt, main heading and ARIA references checked",
+    "support.html: local files, IDs, labels, image alt, main heading and ARIA references checked",
+    "All 9 application JavaScript files pass syntax checks",
+    "28 service worker cache paths exist",
+    "Manifest JSON and icon paths checked",
+    "CSS delimiter balance checked; this is not W3C validation"
+  ],
+  "issues": []
+}

@@ -1,0 +1,855 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="Home-desktop" name="Home Desktop">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1200" pageHeight="1900">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="TOY HAVEN / HOME / DESKTOP 1200" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="1160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Logo     Home     Products     My collection     Support     Cart (count)" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="1160" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Promotion 01 / 04&#10;Headline + supporting sentence&#10;Shop Now&#10;Previous / Next / Pause" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="175" width="560" height="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="PROMOTIONAL PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="175" width="600" height="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Collect. Play. Repeat. / Intro strip" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="555" width="1160" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Pick your department" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="640" width="1160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="01 Figurines&#10;Category image + catalogue link" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="720" width="572.0" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="02 Diecast cars&#10;Category image + catalogue link" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="720" width="572.0" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="03 Board games&#10;Category image + catalogue link" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="900" width="572.0" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="04 Toys&#10;Category image + catalogue link" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="900" width="572.0" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Featured Product of the Day&#10;Image / name / description / price&#10;Meet today's pick" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1080" width="1160" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="Featured products / The shortlist" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1320" width="1160" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1405" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1555" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1605" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1645" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="1405" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="1555" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="1605" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="1645" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="1405" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="23" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="1555" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="24" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="1605" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="25" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="1645" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="26" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="1405" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="27" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="1555" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="28" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="1605" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="29" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="1645" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="30" value="Footer&#10;Brand / navigation links&#10;Newsletter email + Join list&#10;Student demo notice" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1735" width="1160" height="125" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Home-mobile" name="Home Mobile">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="390" pageHeight="3575">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="TOY HAVEN / HOME&#10;MOBILE / 390 px" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="350" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="TOY HAVEN                    Menu&#10;Menu opens navigation and cart" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="350" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Promotion 01 / 04&#10;Headline + supporting sentence&#10;Shop Now&#10;Previous / Next / Pause" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="175" width="350" height="250" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="PROMOTIONAL PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="445" width="350" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Collect. Play. Repeat. / Intro strip" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="745" width="350" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Pick your department" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="830" width="350" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="01 Figurines&#10;Category image + catalogue link" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="910" width="350.0" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="02 Diecast cars&#10;Category image + catalogue link" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1090" width="350.0" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="03 Board games&#10;Category image + catalogue link" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1270" width="350.0" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="04 Toys&#10;Category image + catalogue link" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1450" width="350.0" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Featured Product of the Day&#10;Image / name / description / price&#10;Meet today's pick" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1630" width="350" height="300" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="Featured products / The shortlist" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1950" width="350" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2035" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2185" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2235" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2275" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2365" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2515" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2565" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2605" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2695" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="23" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2845" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="24" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2895" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="25" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2935" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="26" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="3025" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="27" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="3175" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="28" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="3225" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="29" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="3265" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="30" value="Footer&#10;Brand / navigation links&#10;Newsletter email + Join list&#10;Student demo notice" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="3355" width="350" height="180" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Products-desktop" name="Products Desktop">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1200" pageHeight="1510">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="TOY HAVEN / PRODUCTS / DESKTOP 1200" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="1160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Logo     Home     Products     My collection     Support     Cart (count)" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="1160" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Find your next favourite&#10;Introduction" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="175" width="1160" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Search by name     Category dropdown     Reset filters" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="325" width="1160" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Result count / fictional product note" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="435" width="1160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="515" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="665" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="715" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="755" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="515" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="665" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="715" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="755" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="515" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="665" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="715" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="755" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="515" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="665" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="715" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="755" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="23" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="845" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="24" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="995" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="25" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1045" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="26" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1085" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="27" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="845" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="28" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="995" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="29" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="1045" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="30" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="1085" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="31" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="845" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="32" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="995" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="33" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="1045" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="34" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="1085" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="35" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="845" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="36" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="995" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="37" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="1045" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="38" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="1085" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="39" value="INTERACTION STATES&#10;View opens a product dialog with image, description, details table, Add to cart and Save.&#10;Close button / Escape returns to catalogue.&#10;No matches: reset prompt." style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1175" width="1160" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="40" value="Footer&#10;Brand / navigation links&#10;Newsletter email + Join list&#10;Student demo notice" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1345" width="1160" height="125" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Products-mobile" name="Products Mobile">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="390" pageHeight="3705">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="TOY HAVEN / PRODUCTS&#10;MOBILE / 390 px" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="350" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="TOY HAVEN                    Menu&#10;Menu opens navigation and cart" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="350" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Find your next favourite&#10;Introduction" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="175" width="350" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Search by name&#10;Category dropdown&#10;Reset filters" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="325" width="350" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Result count / fictional product note" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="525" width="350" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="605" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="755" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="805" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="845" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="935" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1085" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1135" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1175" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1265" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1415" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1465" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1505" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1595" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1745" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1795" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1835" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="23" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1925" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="24" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2075" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="25" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2125" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="26" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2165" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="27" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2255" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="28" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2405" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="29" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2455" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="30" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2495" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="31" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2585" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="32" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2735" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="33" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2785" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="34" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2825" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="35" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="2915" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="36" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="3065" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="37" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="3115" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="38" value="Add to cart   |   View&#10;Save to collection" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="3155" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="39" value="INTERACTION STATES&#10;View opens a product dialog with image, description, details table, Add to cart and Save.&#10;Close button / Escape returns to catalogue.&#10;No matches: reset prompt." style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="3245" width="350" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="40" value="Footer&#10;Brand / navigation links&#10;Newsletter email + Join list&#10;Student demo notice" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="3485" width="350" height="180" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Cart-desktop" name="Cart Desktop">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1200" pageHeight="970">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="TOY HAVEN / CART / DESKTOP 1200" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="1160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Logo     Home     Products     My collection     Support     Cart (count)" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="1160" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Your shopping cart" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="175" width="1160" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Image" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="305" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Product name / unit price / subtotal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="112" y="305" width="648" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Minus   |   Quantity   |   Plus   |   Remove" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="397" width="740" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Image" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="465" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Product name / unit price / subtotal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="112" y="465" width="648" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Minus   |   Quantity   |   Plus   |   Remove" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="557" width="740" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Order summary&#10;Item totals&#10;Final total&#10;Proceed to checkout&#10;Clear cart" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="780" y="305" width="400" height="320" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="EMPTY STATE: Browse products; checkout unavailable" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="665" width="1160" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="Footer&#10;Brand / navigation links&#10;Newsletter email + Join list&#10;Student demo notice" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="805" width="1160" height="125" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Cart-mobile" name="Cart Mobile">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="390" pageHeight="1355">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="TOY HAVEN / CART&#10;MOBILE / 390 px" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="350" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="TOY HAVEN                    Menu&#10;Menu opens navigation and cart" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="350" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Your shopping cart" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="175" width="350" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Image" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="305" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Product name / unit price / subtotal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="112" y="305" width="258" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Minus   |   Quantity   |   Plus   |   Remove" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="397" width="350" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Image" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="465" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Product name / unit price / subtotal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="112" y="465" width="258" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Minus   |   Quantity   |   Plus   |   Remove" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="557" width="350" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Order summary&#10;Item totals&#10;Final total&#10;Proceed to checkout&#10;Clear cart" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="625" width="350" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="EMPTY STATE: Browse products; checkout unavailable" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="925" width="350" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="Footer&#10;Brand / navigation links&#10;Newsletter email + Join list&#10;Student demo notice" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1135" width="350" height="180" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Checkout-desktop" name="Checkout Desktop">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1200" pageHeight="1055">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="TOY HAVEN / CHECKOUT / DESKTOP 1200" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="1160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Logo     Home     Products     My collection     Support     Cart (count)" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="1160" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Make it yours." style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="175" width="1160" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Full name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="305" width="740" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Email address" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="381" width="740" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Delivery address" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="457" width="740" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Payment method: Card / Cash on Delivery" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="573" width="740" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Confirm demo order" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="664" width="740" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Order summary&#10;Item totals&#10;Final total&#10;Review items before confirmation&#10;No real payment details requested" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="780" y="305" width="400" height="320" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="SUCCESS STATE: animated tick / order reference / total&#10;Cart cleared and order stored locally&#10;EMPTY STATE: place-order button disabled" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="750" width="1160" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Footer&#10;Brand / navigation links&#10;Newsletter email + Join list&#10;Student demo notice" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="890" width="1160" height="125" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Checkout-mobile" name="Checkout Mobile">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="390" pageHeight="1460">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="TOY HAVEN / CHECKOUT&#10;MOBILE / 390 px" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="350" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="TOY HAVEN                    Menu&#10;Menu opens navigation and cart" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="350" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Make it yours." style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="175" width="350" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Full name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="305" width="350" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Email address" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="381" width="350" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Delivery address" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="457" width="350" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Payment method: Card / Cash on Delivery" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="573" width="350" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Confirm demo order" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="664" width="350" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Order summary&#10;Item totals&#10;Final total&#10;Review items before confirmation&#10;No real payment details requested" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="730" width="350" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="SUCCESS STATE: animated tick / order reference / total&#10;Cart cleared and order stored locally&#10;EMPTY STATE: place-order button disabled" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1030" width="350" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Footer&#10;Brand / navigation links&#10;Newsletter email + Join list&#10;Student demo notice" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1240" width="350" height="180" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Collection-desktop" name="Collection Desktop">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1200" pageHeight="1010">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="TOY HAVEN / COLLECTION / DESKTOP 1200" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="1160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Logo     Home     Products     My collection     Support     Cart (count)" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="1160" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="My collection.&#10;Saved count / owned count" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="175" width="1160" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="335" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="485" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="535" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Status selector&#10;Remove" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="575" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="335" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="485" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="535" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Status selector&#10;Remove" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="314.0" y="575" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="335" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="485" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="535" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="Status selector&#10;Remove" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="608.0" y="575" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="335" width="278.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="485" width="278.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="535" width="278.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="Status selector&#10;Remove" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="902.0" y="575" width="278.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="Status choices&#10;Interested / Owned / Not Interested&#10;Changes survive refresh&#10;Empty state links to products" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="665" width="1160" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="Footer&#10;Brand / navigation links&#10;Newsletter email + Join list&#10;Student demo notice" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="845" width="1160" height="125" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Collection-mobile" name="Collection Mobile">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="390" pageHeight="2055">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="TOY HAVEN / COLLECTION&#10;MOBILE / 390 px" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="350" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="TOY HAVEN                    Menu&#10;Menu opens navigation and cart" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="350" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="My collection.&#10;Saved count / owned count" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="175" width="350" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="335" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="485" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="535" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Status selector&#10;Remove" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="575" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="665" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="815" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="865" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Status selector&#10;Remove" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="905" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="995" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1145" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1195" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="Status selector&#10;Remove" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1235" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="PRODUCT IMAGE" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1325" width="350.0" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="Category / reference&#10;Product name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1475" width="350.0" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" value="LKR price" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1525" width="350.0" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="Status selector&#10;Remove" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20.0" y="1565" width="350.0" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="Status choices&#10;Interested / Owned / Not Interested&#10;Changes survive refresh&#10;Empty state links to products" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1655" width="350" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="Footer&#10;Brand / navigation links&#10;Newsletter email + Join list&#10;Student demo notice" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1835" width="350" height="180" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Support-desktop" name="Support Desktop">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1200" pageHeight="955">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="TOY HAVEN / SUPPORT / DESKTOP 1200" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="1160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Logo     Home     Products     My collection     Support     Cart (count)" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="1160" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="A little help?&#10;Demo feedback is stored in this browser" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="175" width="1160" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="335" width="560" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Email address" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="411" width="560" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Your message" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="487" width="560" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Send feedback" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="633" width="560" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Validation or confirmation message" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="699" width="560" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="FAQ question 1   +" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="335" width="580" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Expanded answer appears here." style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="410" width="580" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="FAQ question 2   +" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="530" width="580" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="FAQ question 3   +" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="605" width="580" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="FAQ question 4   +" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="680" width="580" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="Footer&#10;Brand / navigation links&#10;Newsletter email + Join list&#10;Student demo notice" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="790" width="1160" height="125" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Support-mobile" name="Support Mobile">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="390" pageHeight="1450">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="TOY HAVEN / SUPPORT&#10;MOBILE / 390 px" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="350" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="TOY HAVEN                    Menu&#10;Menu opens navigation and cart" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="350" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="A little help?&#10;Demo feedback is stored in this browser" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="175" width="350" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Name" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="335" width="350" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Email address" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="411" width="350" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Your message" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="487" width="350" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Send feedback" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="633" width="350" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Validation or confirmation message" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="699" width="350" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="FAQ question 1   +" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="790" width="350" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Expanded answer appears here." style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="865" width="350" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="FAQ question 2   +" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="985" width="350" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="FAQ question 3   +" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1060" width="350" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="FAQ question 4   +" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dddddd;strokeColor=#777777;fontColor=#222222;fontSize=15;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1135" width="350" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="Footer&#10;Brand / navigation links&#10;Newsletter email + Join list&#10;Student demo notice" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#777777;fontColor=#222222;fontSize=16;fontFamily=Arial;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1230" width="350" height="180" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

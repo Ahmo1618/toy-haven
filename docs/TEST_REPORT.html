@@ -1,0 +1,206 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Toy Haven testing record</title><style>body{font:16px/1.65 Arial,Helvetica,sans-serif;color:#202522;background:#f5f3ed;margin:0}main{max-width:980px;margin:48px auto;padding:36px;background:white}h1{font-size:36px;line-height:1.15}h2{margin-top:44px;line-height:1.25}h3{margin-top:30px}a{color:#22557a;text-underline-offset:3px}table{border-collapse:collapse;width:100%;margin:24px 0;font-size:14px}th,td{border:1px solid #cbd0c8;padding:10px;text-align:left;vertical-align:top}th{background:#e7e9e2}tr{break-inside:avoid}pre{padding:18px;overflow:auto;background:#f2f2ee}code{font-family:Consolas,monospace;font-size:.93em}li{margin-bottom:8px}.meta{color:#5c635d}.pass{color:#1c642e;font-weight:bold}.pending{color:#8b4a00;font-weight:bold}img{max-width:100%}@media(max-width:650px){main{margin:0;padding:22px}h1{font-size:30px}table{font-size:12px}th,td{padding:7px;overflow-wrap:anywhere}}@media print{body{background:white}main{margin:0;max-width:none;padding:0}a{color:inherit}h1,h2,h3{break-after:avoid}table{font-size:11px}pre{white-space:pre-wrap}}</style></head><body><main><h1>Toy Haven testing and submission record</h1><p><strong>Latest update — 30 September:</strong> 30 September update: the catalogue now has 16 products (four per category). Department images use contain and captions sit below them. All 36 local logic checks passed. Earlier W3C reports and the Word test record are retained as historical evidence; revalidate the changed Home/Product HTML and CSS before submission. No new browser, WAVE or Lighthouse audit is claimed.</p><nav aria-label="Contents"><h2>Contents</h2><ol><li><a href="#section-1">Completed logic checks</a></li><li><a href="#section-2">Browser and assessment test cases</a></li><li><a href="#section-3">Environment limitations</a></li></ol></nav>
+<p>Student name: Ismath Inoon Ahmed Zahrab
+Student ID: CB017224
+Live GitHub Pages URL: [pending deployment]</p>
+<p>33/33 local logic checks passed using Node with DOM/storage stubs. These are not real-browser tests. Nine JavaScript syntax checks passed. Local HTML references, IDs, labels, image alt attributes and ARIA references were checked. Official W3C validation passed: all six HTML files have 0 errors, 0 warnings and 0 notices; CSS has 0 errors and 73 warnings under CSS Level 3 + SVG. Evidence is in docs/verification/w3c/index.html. All 28 service-worker cache entries exist.</p>
+<h2 id="section-1">Completed logic checks</h2>
+<ul>
+<li>L01 PASS — Eight unique products across all four categories</li>
+<li>L02 PASS — Missing storage returns empty list</li>
+<li>L03 PASS — Malformed JSON returns empty list</li>
+<li>L04 PASS — Non-array storage returns empty list</li>
+<li>L05 PASS — Cart rejects unknown IDs, zero, fractions and excessive quantities</li>
+<li>L06 PASS — Repeated add increments one record and cart badge</li>
+<li>L07 PASS — Known arithmetic: two 4500 figures plus 2800 teddy equals 11800</li>
+<li>L08 PASS — Quantity limit 99 is enforced when adding</li>
+<li>L09 PASS — Unknown product cannot be added</li>
+<li>L10 PASS — Wishlist prevents duplicate products</li>
+<li>L11 PASS — Wishlist rejects invalid status and unknown ID</li>
+<li>L12 PASS — Blocked storage reports failure without successful update</li>
+<li>L13 PASS — Custom validation trims and rejects whitespace</li>
+<li>L14 PASS — Custom validation enforces minimum trimmed length</li>
+<li>L15 PASS — Wishlist normalises known IDs and rejects unknown additions</li>
+<li>L16 PASS — Minus at one removes the product</li>
+<li>L17 PASS — Cart quantity changes recalculate totals</li>
+<li>L18 PASS — Clear cart empties storage and hides checkout</li>
+<li>L19 PASS — All products initially appear in result count</li>
+<li>L20 PASS — Combined category plus case-insensitive trimmed search</li>
+<li>L21 PASS — Search and category use AND, not OR</li>
+<li>L22 PASS — Product modal selects requested product</li>
+<li>L23 PASS — Modal Close closes dialog</li>
+<li>L24 PASS — Checkout disabled with empty cart</li>
+<li>L25 PASS — Blank checkout saves no order</li>
+<li>L26 PASS — Valid Card simulation saves snapshot and clears cart</li>
+<li>L27 PASS — Empty-cart resubmission does not duplicate order</li>
+<li>L28 PASS — Cash on Delivery simulation also saves selected method</li>
+<li>L29 PASS — Support stores valid feedback</li>
+<li>L30 PASS — Newsletter deduplicates case-normalised email</li>
+<li>L31 PASS — Daily product is an existing deterministic product</li>
+<li>L32 PASS — Carousel wraps from last slide to first</li>
+<li>L33 PASS — Carousel previous wraps to last slide</li>
+</ul>
+<h2 id="section-2">Browser and assessment test cases</h2>
+<h3>M01 All six pages</h3>
+<p>Steps: Open every header/footer link.</p>
+<p>Expected: Correct page loads; no broken images or Console errors.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M02 Mobile menu</h3>
+<p>Steps: At 390px select Menu, then Escape.</p>
+<p>Expected: Menu expands, icon changes, Escape closes and restores focus.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M03 Carousel</h3>
+<p>Steps: Wait 6 seconds; use Previous, Next and Pause.</p>
+<p>Expected: Image, heading and category link change together; pause stops rotation.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M04 Daily feature</h3>
+<p>Steps: Reload on the same local date; compare with another date in an isolated test.</p>
+<p>Expected: Same date selects same item; another date advances the index.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M05 Filters</h3>
+<p>Steps: Choose Toys and search ROBOT; then select Diecast Cars.</p>
+<p>Expected: One robot result, then no matches; reset restores eight items.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M06 Product modal</h3>
+<p>Steps: Select View; tab through its controls; press Escape.</p>
+<p>Expected: Correct product, complete image, keyboard contained while open, focus returns after closing.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M07 Cart and persistence</h3>
+<p>Steps: Add Lunar Explorer twice and Teddy once; open Cart and refresh.</p>
+<p>Expected: Two rows, three units and LKR 11,800 persist.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M08 Quantity and removal</h3>
+<p>Steps: Increase/decrease; minus at one; use Remove and Clear.</p>
+<p>Expected: Totals update; zero-quantity rows vanish; empty checkout link unavailable.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M09 Invalid checkout</h3>
+<p>Steps: With an item in cart submit empty fields, malformed email and short address.</p>
+<p>Expected: Visible relevant errors; focus on first invalid field; no saved order.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M10 Successful checkout</h3>
+<p>Steps: Use fictional valid details and Card. Repeat with Cash on Delivery.</p>
+<p>Expected: Confirmation animates; order snapshot is saved; cart clears; no real payment occurs.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M11 Collection statuses</h3>
+<p>Steps: Save a product twice, mark Owned, refresh, then Not Interested and remove.</p>
+<p>Expected: One saved entry; correct persisted status and counts; removal works.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M12 Feedback validation</h3>
+<p>Steps: Try blank and invalid fields, then fictional valid feedback.</p>
+<p>Expected: Invalid entries rejected; valid message saved locally; success shown.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M13 FAQ</h3>
+<p>Steps: Open and close every question with keyboard and pointer.</p>
+<p>Expected: Corresponding answer and expanded state change correctly.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M14 Newsletter</h3>
+<p>Steps: Submit invalid email, then <a href="mailto:Demo@Example.com">Demo@Example.com</a> and <a href="mailto:demo@example.com">demo@example.com</a>.</p>
+<p>Expected: Invalid rejected; only one normalised saved address; duplicate feedback shown.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M15 Responsive layout</h3>
+<p>Steps: Inspect all pages at 320, 390, 768, 1024 and 1440px, including populated cart and modal.</p>
+<p>Expected: No horizontal overflow, clipped text or overlapping controls.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M16 Keyboard and motion</h3>
+<p>Steps: Use Tab, Shift+Tab, Enter and Escape. Enable reduced motion.</p>
+<p>Expected: Visible focus, usable controls, reduced animations and paused initial carousel.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M17 Offline and install</h3>
+<p>Steps: On localhost/HTTPS finish the first load, wait for worker activation, reload, then go offline and visit all pages.</p>
+<p>Expected: Cached pages/assets load; local cart still works; inspect manifest and installed-app behaviour where supported.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M18 Cross-tab updates</h3>
+<p>Steps: Open Cart in two tabs; modify quantities in one.</p>
+<p>Expected: Other tab refreshes its badge and cart after storage event.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M19 HTML validity</h3>
+<p>Steps: Submit all six HTML files to the W3C Nu HTML Checker HTTP service.</p>
+<p>Expected: No HTML errors; review warnings and notices.</p>
+<p>Actual: PASS — all six files returned 0 errors, 0 warnings and 0 notices.</p>
+<p>Status: PASS — official service validation</p>
+<p>Browser/device/date: HTTP service submission, not browser execution; 26 September 2026</p>
+<p>Evidence: docs/verification/w3c/html-summary.json and six original JSON responses</p>
+<h3>M20 CSS validity</h3>
+<p>Steps: Submit css/style.css to the W3C CSS service using CSS Level 3 + SVG and warning level 2.</p>
+<p>Expected: No CSS errors; record and review warnings.</p>
+<p>Actual: PASS for validity — 0 errors and 73 warnings. 29 colour/background warnings and 44 redefinition warnings retained; rendered contrast checks remain pending.</p>
+<p>Status: PASS — official service validation</p>
+<p>Browser/device/date: HTTP service submission, not browser execution; 26 September 2026</p>
+<p>Evidence: docs/verification/w3c/style-css.html and css-summary.json</p>
+<h3>M21 WAVE</h3>
+<p>Steps: Run WAVE on each hosted page and key dynamic state.</p>
+<p>Expected: Investigate all errors; record results and remaining issues.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M22 Lighthouse</h3>
+<p>Steps: Run Chrome Lighthouse on desktop and mobile against the final hosted site.</p>
+<p>Expected: Record actual Performance, Accessibility, Best Practices and SEO scores plus reports.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h3>M23 GitHub Pages</h3>
+<p>Steps: Open the actual deployment URL in a private window and on a phone.</p>
+<p>Expected: All pages/assets work under repository path; copy the verified URL into the submission document.</p>
+<p>Actual: [record your observation]</p>
+<p>Status: Pending</p>
+<p>Browser/device/date: [fill in]</p>
+<p>Evidence: [screenshot or report filename]</p>
+<h2 id="section-3">Environment limitations</h2>
+<p>The remote browser blocked the local website preview with ERR_BLOCKED_BY_CLIENT. No visual-browser, offline or accessibility-audit pass is claimed. GitHub Pages has not been deployed. The editable test record must be completed against the running website before submission.</p>
+</main></body></html>

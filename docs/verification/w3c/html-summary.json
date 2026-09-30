@@ -1,0 +1,74 @@
+[
+  {
+    "file": "index.html",
+    "engine": "W3C Nu HTML Checker",
+    "version": "26.9.16",
+    "endpoint": "https://validator.w3.org/nu/?out=json",
+    "http_status": 200,
+    "checked_at": "2026-09-26T14:48:43.234514+00:00",
+    "sha256": "054ef141c0f648f28c3076f1872220f9cf2a2dc261555d454daec9e7eb094b0d",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0
+  },
+  {
+    "file": "products.html",
+    "engine": "W3C Nu HTML Checker",
+    "version": "26.9.16",
+    "endpoint": "https://validator.w3.org/nu/?out=json",
+    "http_status": 200,
+    "checked_at": "2026-09-26T14:48:43.195068+00:00",
+    "sha256": "20820122902720bfaeb451df305e6aa36e54ca5f9fb8cfb9b455e65fa4827a32",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0
+  },
+  {
+    "file": "cart.html",
+    "engine": "W3C Nu HTML Checker",
+    "version": "26.9.16",
+    "endpoint": "https://validator.w3.org/nu/?out=json",
+    "http_status": 200,
+    "checked_at": "2026-09-26T14:48:49.561630+00:00",
+    "sha256": "4df80d9c0d4ea9d13c5eba079e272f55101add70db7bf6676d9d555d8af76df4",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0
+  },
+  {
+    "file": "checkout.html",
+    "engine": "W3C Nu HTML Checker",
+    "version": "26.9.16",
+    "endpoint": "https://validator.w3.org/nu/?out=json",
+    "http_status": 200,
+    "checked_at": "2026-09-26T14:48:49.631217+00:00",
+    "sha256": "b831dcd3a8bc33d0f60551077bb91346792a60aad7a1e4087ff189197eaff612",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0
+  },
+  {
+    "file": "wishlist.html",
+    "engine": "W3C Nu HTML Checker",
+    "version": "26.9.16",
+    "endpoint": "https://validator.w3.org/nu/?out=json",
+    "http_status": 200,
+    "checked_at": "2026-09-26T14:48:57.043112+00:00",
+    "sha256": "60a5cff8fd9e92b60bfde7624f31e56e9b2ac3a1e0629301990d2916a4330b3c",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0
+  },
+  {
+    "file": "support.html",
+    "engine": "W3C Nu HTML Checker",
+    "version": "26.9.16",
+    "endpoint": "https://validator.w3.org/nu/?out=json",
+    "http_status": 200,
+    "checked_at": "2026-09-26T14:48:57.002229+00:00",
+    "sha256": "a506097f0d783da0d67205494d8429201da6c077b8248a73b1c853ae4a3fd1f9",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0
+  }
+]
